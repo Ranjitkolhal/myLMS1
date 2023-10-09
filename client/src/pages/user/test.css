@@ -1,0 +1,70 @@
+@media screen and (max-width : 658px) {
+    .namu{
+        display: block !important;
+    }
+    .thisCourse , .thisPayment{
+        width: 93.5% !important;
+        margin: auto;
+    }
+    .thisPayment{
+        margin-bottom: 40px;
+
+    }
+    .thisTour {
+        margin: auto;
+        padding-top: 30px;
+        display: block !important;
+    }
+    .thisTour > * {
+        margin-bottom: 20px;
+        margin: auto !important;
+        text-align: center !important;
+    
+    }
+    .thisTour > img {
+        margin: auto !important;
+    }
+    .notMobFlex{
+        display: block !important;
+        text-align: center !important;
+    }
+    .text-blue-700, .text-blue-500 {
+        font-size: 25px !important;
+    }
+    .space-x-1 > .text-blue-700 {
+        font-size: 15px !important
+    }
+    .myCard{
+       margin-left: 0px !important;
+        /* background-color: red !important; */
+    }
+    .flex > .ml-10 {
+        margin-left: 0px !important;
+        margin: 5px !important;
+        margin-bottom: 10px !important;
+    }
+    .addMob, .viewMob{
+        flex-direction: column !important;
+    }
+    .text-justify{
+        text-justify: auto !important;
+        width: 100%;
+    }
+    .addPadding{
+
+        padding-top: 30px !important;
+    }
+    .px-20{
+        padding: 0px !important;
+    }
+    .viewSmall > *{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+        font-size: 15px !important;
+    }
+ .viewLast{
+    margin-bottom: 40px;
+ }
+}
